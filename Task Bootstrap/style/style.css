@@ -1,0 +1,166 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: black;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+}
+
+a.tbl-putih {
+    background: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-putih:hover {
+    background: darkorchid;
+    text-decoration: none;
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 250px;
+    margin: auto;
+    height: 250px;
+    color: white;
+    background-color: white;
+}
+
+.custom-img-red {
+    position: relative;
+    top: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.custom-img-blue {
+    position: relative;
+    top: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.custom-img-brown {
+    position: relative;
+    top: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.card-img-red {
+    position: relative;
+    top: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.card-img-blue {
+    position: relative;
+    top: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.card-img-brown {
+    position: relative;
+    top: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.keyboard {
+    position: cover;
+}
+
+.kontak {
+    background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+}
